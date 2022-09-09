@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - is the entry point for the program.
+ * main - print the string in the put function
  *
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
  * return: zero if no error, non-zero value if error.
  */
 int main(void)
@@ -13,11 +15,11 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("size of a char: 1 byte(s)\n", sizeof(a));
-	printf("size of an int: 4  byte(s)\n", sizeof(b));
-	printf("size of a long int: 8 byte(s)\n", sizeof(c));
-	printf("size of a long long int: 8 byte(s)\n", sizeof(d));
-	printf("side of a float: 4 byte(s)\n", sizeof(e));
+	printf("size of a char: %ld byte(s)\n", sizeof(a));
+	printf("size of an int: %ld byte(s)\n", sizeof(b));
+	printf("size of a long int: %ld byte(s)\n", sizeof(c));
+	printf("size of a long long int: %ld byte(s)\n", sizeof(d));
+	printf("side of a float: %ld byte(s)\n", sizeof(e));
 	return (0);
 }
 
