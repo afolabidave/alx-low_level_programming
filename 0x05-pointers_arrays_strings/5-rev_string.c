@@ -27,7 +27,6 @@ void rev_string(char *s)
 		}
 	}
 }
-
 Footer
 
 © 2022 G
